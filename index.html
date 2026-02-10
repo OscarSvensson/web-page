@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="stildok.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sourced from nature</title>
+        <meta name="description" content="Homesteading crafts and foraging">
+        <meta name="keywords" content="Homesteading, Nature, Crafts, Foraging">
+        <!--<meta http-equiv="refresh" content="30">  (Uppdaterar sidan var 30e sekund. För display när du jobbar på sidan)  -->
+    </head>
+    <body>
+        <header id="top">
+            <h1>Sourced from nature</h1>
+        </header>
+            <nav>
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#top"><svg class="icon" width="40" height="40" viewbox="0 0 200 200"><path d=" 
+                        M 40, 40 L 180, 160
+                        M 40, 160 L 180, 40"/></svg></a></li>
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#article">Articles</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                </ul>
+                <ul> <!--  Meny-bar horisontell på storformat -->
+                    <li><a href="#top"><svg class="icon" id="home-icon" width="40" height="40" viewbox="0 0 200 200"><path d=" 
+                        M 0, 120 L 100, 20
+                        M 100, 20 L 200, 120
+                        M 40, 100 L 40, 180
+                        M 160, 100 L 160, 180
+                        M 60, 60 L 60, 0
+                        "/></svg></a></li>
+                    <li class="hideOnMobile"><a href="#intro">Intro</a></li>
+                    <li class="hideOnMobile"><a href="#article">Articles</a></li>
+                    <li class="hideOnMobile"><a href="#categories">Categories</a></li>
+                    <li onclick=showSidebar()>
+                        <a><svg class="icon" width="40" height="40" viewbox="0 0 200 200"><path d=" 
+                        M 30, 40 L 180, 40
+                        M 30, 100 L 180, 100
+                        M 30, 160 L 180, 160"/></svg></a>
+                    </li>
+                </ul>
+            </nav>
+            <script>
+                function showSidebar(){
+                    const sidebar = document.querySelector('.sidebar')
+                    sidebar.style.display = 'flex'
+                }
+                function hideSidebar(){
+                    const sidebar = document.querySelector('.sidebar')
+                    sidebar.style.display = 'none'
+                }
+            </script>
+        <main>
+            <section id="intro">
+                <h2>Introduktion</h2>
+                <article>
+                    
+                    <p>
+                        This page is about the pursuit of living off the land and using the resources found in nature to 
+                        provide for oneself. Humans have had a close relationship with the land for thousands of years, 
+                        only to lose that connection over the span of a few generations. My wish is to find my way back. 
+                        At least in some form or capacity.
+
+                        
+                        
+
+
+
+                    </p>
+                </article>
+                <article>
+                    <h3>Safety</h3>
+                    <p>
+                        The stuff I describe is how I do things. That does not always mean that it will work for you or your 
+                        situation. I am not an expert, and you might not be either. Use your own judgement, and do the research 
+                        before attempting any project. Activities such as identifying plants and mushrooms for eating, felling 
+                        trees, working with sharp tools or lighting fires are all safe when done right. But can be hazardous or 
+                        even lethal in some cases if you are uncareful.
+                    </p>
+                </article>
+                <article>
+                    <h3>Rights of usage</h3>
+                    <p>
+                        I will describe what you can do with the stuff you find in nature, and not whether you are allowed to 
+                        do so. That will depend on where in the world you are, who owns the land, and other stuff. I am fortunate 
+                        enough to own land, but there is some stuff that is available for anyone to forage in most countries. 
+                    </p>
+                    
+                </article>
+            </section>
+            <section id="articles">
+                <h2>Articles</h2>
+                <article id="horse-chestnut-cleaner">
+                    <div class="article-header"><h3>Laundry detergent from Horse chestnut</h3></div>
+                    <p>
+                        Conkers from Aesculus hippocastanum, horse chestnut, can be used as a laundry detergent. The conkers contain 
+                        some stuf that make them ineddible, but are also rich in saponins. Saponins are a natural soapy substance that help disolve grease.
+                    </p>
+                    <h4>Harvesting</h4>
+                    <p>
+                        When conkers drop to the ground in autumn. They are easy to both find and identify, once you
+                         have found a tree. Each tree also drop huge amounts of conkers, wich makes it easy to harvest 
+                         large amounts.
+                    </p>
+                    <h4>Processing and storage</h4>
+                    <p>You can use or process them in a number of ways, but the way that I personally find easiest is to 
+                        quarter and dry them. Simply chop each one into four pieces and spread them out and leave them in a
+                         warm dry place for a few days.<br>
+                         Once dry they store in a glass jar for years, provided that you keep them away from moisture.<br>
+                         I have read of methods where you grind or chop the conkers to a powder, which should help the saponins 
+                         leech out easier. I do however find that the quarter size pieces do the job just fine, and if I can save 
+                         some time and effort and just use the larger pieces, that is the way to go for me.<br>
+                         Some sources will tell you to remove the brown shell when washing white laundry, as this part is said to cause 
+                         miscolorings on the laundry. I have not seen this happen myself, but you might be careful with this, and avoid 
+                         washing any heirloom textiles this way.
+                    </p>
+                    <h4>Use in washing machine</h4>
+                    <p>
+                        Take 6-8 dried or fresh quarters and tie them in a sock. throw in the sock together with the rest of the 
+                        laundry, and run the same program you would otherwise have used. 
+                    </p>
+                    <div class="article-footer">
+                        <ul>
+                            <li><a>Washing</a></li>
+                            <li>Trees</li>
+                            <li>Dried goods</li>
+                        </ul>
+                    </div>
+                </article>
+                
+            </section>
+            <section id="categories">
+                <h2>Categories</h2>
+                <article>
+                    <h3>Washing</h3>
+                    
+                </article>
+            </section>
+        </main>
+    </body>
+</html>
